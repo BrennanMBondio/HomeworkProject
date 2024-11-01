@@ -180,7 +180,7 @@ export default function WelcomeScreen({ navigation, setIsLoggedIn, test }) {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.headerContainerTwo}>
-        <Text style={styles.headerTextTwo}>Welcome, {firstName} {lastName}!!!</Text>
+        <Text style={styles.headerTextTwo}>Welcome, {firstName} {lastName}!</Text>
       </View>
 
       <View style={styles.imageContainer}>
