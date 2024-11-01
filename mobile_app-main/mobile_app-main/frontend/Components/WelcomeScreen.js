@@ -179,10 +179,9 @@ export default function WelcomeScreen({ navigation, setIsLoggedIn, test }) {
   };
   return (
     <SafeAreaView style={styles.container}>
-      <View style={styles.headerContainer}>
-        <Text style={styles.headerText}>Welcome!</Text>
+      <View style={styles.headerContainerTwo}>
+        <Text style={styles.headerTextTwo}>Welcome, {firstName} {lastName}!!!</Text>
       </View>
-      <Text style={styles.textStandard}>Welcome, {firstName} {lastName}!</Text>
 
       <View style={styles.imageContainer}>
             <Image

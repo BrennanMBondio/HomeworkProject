@@ -85,13 +85,13 @@ const updateName = async() => {
         </View>
 
         <TextInput
-              style={styles.input}
+              style={styles.profileInput}
               placeholder={userFirst}
               value={firstName}
               onChangeText={text => setFirstName(text)}
         />
         <TextInput
-              style={styles.input}
+              style={styles.profileInput}
               placeholder={userLast}
               value={lastName}
               onChangeText={text => setLastName(text)}

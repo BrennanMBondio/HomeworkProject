@@ -105,5 +105,26 @@ export default StyleSheet.create({
     textAlign: "center",
   },
 
+  profileInput: {
+    height: 40,
+    width: "80%",
+    borderColor: "gray",
+    borderWidth: 1,
+    margin: "auto",
+    marginVertical: 12,
+    paddingLeft: 8,
+  },
+  
+  headerTextTwo: {
+    fontSize: 24,
+    marginBottom: 10,
+    textAlign: "center",
+  },
+
+  headerContainerTwo: {
+    justifyContent: "flex-start",
+    padding: 10,
+  },
+
 
 });
